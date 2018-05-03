@@ -18,13 +18,13 @@ lint-json:
 
 test: lint lint-json
 	@echo "Testing..."
-	$(BIN)/jest $(TEST_OPTIONS)
+	@$(BIN)/jest $(TEST_OPTIONS)
 .PHONY: test test-cov
 
 docs: docs-clean
-	$(BIN)/esdoc
+	@$(BIN)/esdoc
 docs-clean:
-	rm -rf docs
+	@rm -rf docs
 docs-open: docs
-	open docs/index.html
+	@open docs/index.html
 .PHONY: docs docs-clean docs-open
