@@ -5,7 +5,8 @@ const BaiduClient = require('../baiduclient');
 const nock = require('nock');
 
 const BASEURL = 'http://api.map.baidu.com';
-const token = env.get('BAIDU_API_TOKEN').asString();
+// const token = env.get('BAIDU_API_TOKEN').asString();
+const token = 'secret';
 
 describe('BaiduClient Initialize', () => {
   test('should successful initialze the client', () => {
