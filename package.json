@@ -1,0 +1,42 @@
+{
+  "name": "baidu-api-client",
+  "version": "0.0.1",
+  "description": "baidu api client",
+  "author": "paulvollmer",
+  "license": "MIT",
+  "keywords": [
+    "baidu",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wiredcraft/baidu-api-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wiredcraft/baidu-api-client/issues"
+  },
+  "homepage": "https://github.com/Wiredcraft/baidu-api-client#readme",
+  "main": "baiduclient.js",
+  "scripts": {
+    "test": "make test",
+    "precommit": "make lint",
+    "prepush": "make lint"
+  },
+  "dependencies": {
+    "env-var": "^3.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "esdoc": "^1.0.4",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-wcl-backend": "^0.1.1",
+    "eslint-plugin-jest": "^21.15.1",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "jsonlint": "paulvollmer/jsonlint#v1.8.2",
+    "nock": "^9.2.5"
+  }
+}

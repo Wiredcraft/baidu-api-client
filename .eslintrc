@@ -1,0 +1,9 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "extends": "wcl-backend",
+  "plugins": ["jest"]
+}
